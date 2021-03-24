@@ -15,6 +15,10 @@ pip3 install minimalmodbus
 
 # All registers
 
+All are not implemented in the script.
+
+NB. I have not verified that all values are correct, but only concluded that the values seem sane. I am quite certain that voltage, current, power and frequency are correct however.
+
 | MODBUS offset | Description | Units |
 | ------------- | -------------------- | --------- |
 | 2 | Phase 2 line to neutral volts | Volts |
