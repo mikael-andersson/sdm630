@@ -1,6 +1,19 @@
-# My modification of Python script for reading data from Eastron SDM630 over ModBus
+# Python3 script for reading data from Eastron SDM630 over Modbus RTU.
 
-All registers
+Forked from https://github.com/coolex/sdm630.
+
+# Changes
+
+* Adapted to work with Python3.
+* Includes fix for frequency. The original reads the wrong register.
+* Removed write to file.
+* Fixed inconsistent use of tabs and spaces.
+
+# Requirements
+
+pip3 install minimalmodbus
+
+# All registers
 
 | MODBUS offset | Description | Units |
 | ------------- | -------------------- | --------- |
